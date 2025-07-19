@@ -3,7 +3,7 @@ initial_deposit = float(input("What is your principal amount? "))
 interest = float(input("What is the interest rate in decimal? "))
 contribution = float(input("What is the amount of regular contribution? "))
 compounding_type = input("What is the compounding type? Annual or Monthly? ").lower()
-time_period_years = int(input("How many years is this good for? "))
+time_period_years = float(input("How many years is this good for? "))
 
 # Type of compounding
 if compounding_type == 'annual':
