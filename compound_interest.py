@@ -20,4 +20,4 @@ total_contributions = contribution * (((1 + interest / number_compound) ** (numb
 
 final_amount = total_amount + total_contributions
 
-print(f"{round(final_amount, 2)} is the final amount after {time_period_years}.")
+print(f"{round(final_amount, 2)} is the final amount after {time_period_years} years.")
